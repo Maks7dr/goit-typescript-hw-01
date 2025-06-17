@@ -9,6 +9,8 @@ import { showMessage, calc, customError } from "./basic/4";
 import { isWeekend } from "./basic/5.ts";
 import { mango, poly } from "./basic/6.ts";
 import { page1, page2 } from "./basic/7.ts";
+import { fetchData } from "./generics/1.ts";
+import { compare } from "./generics/2.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
