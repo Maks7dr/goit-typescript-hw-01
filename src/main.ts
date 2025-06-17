@@ -6,6 +6,9 @@ import { age, username, toggle, empty, callback } from "./basic/1";
 import { person } from "./basic/2";
 import { strNum, literal } from "./basic/3";
 import { showMessage, calc, customError } from "./basic/4";
+import { isWeekend } from "./basic/5.ts";
+import { mango, poly } from "./basic/6.ts";
+import { page1, page2 } from "./basic/7.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
