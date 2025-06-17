@@ -3,6 +3,9 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
 import { age, username, toggle, empty, callback } from "./basic/1";
+import { person } from "./basic/2";
+import { strNum, literal } from "./basic/3";
+import { showMessage, calc, customError } from "./basic/4";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
