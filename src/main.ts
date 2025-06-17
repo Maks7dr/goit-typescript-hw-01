@@ -11,6 +11,8 @@ import { mango, poly } from "./basic/6.ts";
 import { page1, page2 } from "./basic/7.ts";
 import { fetchData } from "./generics/1.ts";
 import { compare } from "./generics/2.ts";
+import { createOrUpdateUser } from "./generics/4.ts";
+import { RoleDescription } from "./generics/5.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
